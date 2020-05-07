@@ -1,4 +1,4 @@
-export function classNames() {
+exports.classNames = function classNames() {
   const result = [];
 
   for (let i = 0; i < arguments.length; i++) {
@@ -9,5 +9,5 @@ export function classNames() {
     }
   }
 
-  return result;
-}
+  return result.join(' ');
+};
