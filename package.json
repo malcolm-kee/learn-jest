@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Malcolm Kee <malcolm.keeweesiong@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^26.0.1"
